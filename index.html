@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- header section for portfolio, this website is created using only html tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio</title>
+</head>
+    <body>
+    <!-- Header part for title/subheading -->
+    <header>
+        <div class="header">
+        <h1 class="head1 font-effect-outline">STYLING A PERSONAL PORTFOLIO WITH CSS3</h1>
+        </div>
+        <!-- Navigation section display home, about, project & contact    -->
+        <nav class="nav">
+            <input type="checkbox" name="check-hamburger" id="check">
+            <label for="check" class="checkbtn">
+                <div id="hamburger-head">
+                <div class="hamburg-top"></div>
+                <div class="hamburg-mid"></div>
+                <div class="hamburg-bot"></div>
+            </div></label>
+            <div class="portfolio-img">
+            <img src="./images/portfolio.png" alt="portfolio" height="60">
+            </div>
+            <div class="nav1">
+            <a href="#home" id="home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#project">PROJECTS</a>
+            <a href="#contact">CONTACT</a>                                                                   
+           </div>
+           <div class="nav2">
+            <a href="tel:9941196303">Ph. 91-9941196303</a>
+            <a href="mailto:karuna2279@gmail.com" target="_blank">e-mail: karuna2279@gmail.com</a>
+        </div> 
+    </div>
+        </nav> 
+        <div class="banner">
+        <img src="./images/banner.png" alt="banner">
+        </div>
+    </header>
+    <!-- Main tag starts -->
+    <main>
+        <!-- About me section -->
+        <section id="about">
+            <h1>ABOUT ME</h1>
+            <div class="profile">
+            <div class="profile-photo">
+            <p><img src="./images/Photo.jpg" alt="Photo" width="100%"><br><span class="bold"><strong>KARUNAKARAN D.</strong></span></p>
+            </div>
+            <div class="profile-cnt">    
+            <p>Having 20+ years of experience in Production, Data Conversion and ePub Conversion/eBook Conversion.
+                <br>Now I am working in hospital field having 4+ years of experience in Insuracne department.</p>
+                <p>Handled a team size of 70+ in Production and 20+ in Vendors for Outsourcing</p>
+                <p>Handled Projects in WORD, HTML, XML & ePub</p>
+                <p>Proficient in XML, HTML, CSS & XSLT</p>
+                <p>Ability to analysis & creating DTD / Schema and creating sample jobs.</p>
+                <p>Key person in Automation of Tools for the conversion Projects.</p>
+                <p>Creating Project documentation for Live Projects</p>
+            </div>
+            </div>
+        <section class="skills">
+            <h2 align="center">Skills</h2>
+            <div class="skills-marquee"> 
+                <div class="class1">XML</div>
+                <div class="class2">HTML</div>
+                <div class="class3">CSS</div>
+                <div class="class4">PHOTOSHOP</div>
+                <div class="class5">e-pub</div> 
+                <div class="class6">Data-Convertion</div>
+            </div>
+        </section>
+    </section>
+
+       <!-- Project section content is displayed using the ul tag-->
+    <section id="project">
+           <h1>PROJECTS</h1>
+             <!-- project 1 schultz -->
+            <h2>1. Schultz</h2>
+                <ul>
+                    <li>Convert word/html file to xml file using shultz DTD</li>
+                    <li>Technically support to the team members and the vendors.</li>
+                    <li>Preparing style sheet using XSLT to ease and complete the process before the schedule.</li>
+                    <li>Preparing Brochures and Banners using Adobe Photoshop for IT Institute.</li>
+                    <li>Creating client invoice using spreadsheet.</li>
+                    <li>Using VB snippets for automated the xml, html & WORD conversion projects.</li>
+                </ul> 
+                <!-- project 2 CUP -->
+            <h2>2. CUP (Cambridge University Press) Journals & Books</h2>
+                <ul>
+                    <li>Cambridge University Press (CUP)<br>Nature of Job: (Hardcopy to PDF conversion and PDF to XML conversion as per the client
+                    Specification)</li>
+                    <li>Manage multiple projects simultaneously</li>
+                    <li>Handled the works under pressure.</li>
+                    <li>Strong attention to detail and focus on task completion.</li>
+                    <li>Resolving/escalating issues in a timely fashion.</li>
+                    <li>Providing project training for the production team.</li>
+                    <li>Final Quality checking of XML & Epub documents.</li>
+                </ul>
+                <!-- Project 3 IEE -->
+            <h2>3. IEEE (Journals)</h2>
+                <ul>
+                    <li>Support and guide to the Production team.</li>
+                    <li>Regular visit to Vendor place and make awareness about the quality and get the output ahead of schedule.</li>
+                    <li>Tracking of vendor incoming and outgoing files.</li>
+                    <li>Train the in-house and external associates.</li>
+                    <li>Analysis and measure the (CAPA) Corrective and Preventive Action, onto the client's feedback.</li>
+                </ul>
+        </section>
+        </main>
+      <!-- footer section start here -->
+    <footer>
+        <!-- contact section is displayed using form tag -->
+        <section id="contact">
+            <h1>CONTACT</h1>
+                <form method="get" action="submit.html">
+                    <fieldset>
+                    <legend>Contact Form</legend>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" required placeholder="Name"><br><br>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email" required placeholder="Email"><br><br>
+                    <label for="phone">Phone</label><br>
+                    <input type="text" name="phone" id="phone" pattern="\d{10}" minlength="10" maxlength="10" placeholder="Please enter 10 digit" title="Enter 10 digit only"><br><br>
+                    <label for="subject">Subject</label><br>
+                    <input type="text" name="subject" id="subject" required placeholder="Subject"><br><br>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" rows="10" title="Enter 100 words only" placeholder="Type your message here"></textarea>
+                    <br><br>
+                    <input type="reset" value="Reset">
+                    <button>Submit</button>
+                    <!-- <button class="submit">Submit</button> -->
+                 
+                </fieldset>
+                </form>
+                 <!-- End section for social network links, like gmail, linkedin, whatsapp -->
+                     <p class="copy">&copy; Copy rights reserved by ...</p>
+                    <p class="home" align="right"><a href="#home">Go top</a></p>
+                </section>
+    </footer>
+    </body>
+</html>
